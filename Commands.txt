@@ -10,4 +10,4 @@ pip install torch==1.7.0+cpu torchvision==0.8.0+cpu torchaudio==0.7.0+cpu -f htt
 pip install easydict
 
 step 4:
-python detect_sort.py --weights yolov5s.pt  --img 640  0
+python detect_sort.py --weights yolov5s.pt  --img 640  --source 0
